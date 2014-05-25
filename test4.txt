@@ -1,0 +1,23 @@
+st> aLynx := Lynx new .
+st> aLynx getID .
+st> aLynx getID printNl .
+0
+st> aCell := Cell new.
+st> aLynx setCells: aCell oldCell: aCell .
+st> aLynx act .
+st> " aLynx should not exist in newCell. "
+st> (aLynx getNewCell) getNumLynxes printNl .
+0
+st> aCell place: (Rabbit new).
+st> aLynx setCells: aCell oldCell: aCell .
+st> (aLynx getNewCell) getNumRabbits printNl .
+1
+st> aLynx act .
+st> " newCell should have 2 lynxes and no rabbits "
+st> aCell := aLynx getNewCell .
+st> aCell getNumRabbits printNl .
+0
+st> aCell getNumLynxes printNl .
+2
+st> !
+
