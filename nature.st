@@ -1,5 +1,4 @@
 "Charles Effinger"
-"CS 450 Program 3 - Smalltalk"
 
 " Declare the global variables to represent the seed for Animal IDs and the 
   seed for the Random Number Generator. "
