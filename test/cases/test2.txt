@@ -1,0 +1,24 @@
+st> aCell := Cell new.
+st> aCell getNumRabbits printNl .
+0
+st> aCell getNumLynxes printNl .
+0
+st> aRabbit := Rabbit new.
+st> aLynx := Lynx new .
+st> aCell place: aRabbit .
+st> aCell getNumRabbits printNl .
+1
+st> aCell getNumLynxes printNl .
+0
+st> aCell remove: aRabbit .
+st> aCell getNumRabbits printNl .
+0
+st> aCell getNumLynxes printNl .
+0
+st> aCell place: aLynx .
+st> aCell getNumLynxes printNl .
+1
+st> aCell getNumRabbits printNl .
+0
+st> !
+

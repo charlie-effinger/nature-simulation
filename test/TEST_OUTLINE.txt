@@ -1,0 +1,32 @@
+TEST CASES:
+
+Test 0: Dr. Finkel's Test
+File: test0.txt
+
+Test 1: Correctness of Grid Specifications
+File: test1.txt
+
+Test 2: Correctness of Cell (Unspecified)
+File: test2.txt
+ 
+Test 3: Correctness of Animal Specifications
+File: test3.txt
+
+Test 4: Correctness of Rabbit Specifications
+File: test4.txt
+
+Test 5: Correctness of Lynx Specifications
+File: test5.txt
+
+Test 6: Correctness of Simulation Specifications
+File: test6.txt
+
+NOTE: Test 7 uses 4 rabbits, 2 lynxes, and a 2x2 grid.
+Test 7: Correctness of Animal Movement and Action
+File: test7.txt
+
+Test 8: 6 Month Simulation
+File: test8.txt
+
+Test 9: 12 Month Simulation
+File: test9.txt
