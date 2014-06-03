@@ -11,9 +11,9 @@ are no rabbits, then nothing will happen. If a lynx moves into a cell where at
 least one rabbit exists, it will eat one of the rabbits and make a baby lynx. If
 no rabbits exist in the cell where the lynx moves, then the lynx will die. 
 A rabbit that is older than 5 months old or a lynx that is older than 12 months
-old will die. (EXTRA CREDIT) The maximum carrying capacity of a cell is 400 
+old will die. The maximum carrying capacity of a cell is 400 
 rabbits and 40 lynxes. If a cell is over capacity, then the most recent animals
-to enter the cell will die until it is no longer over capacity. (EXTRA CREDIT)
+to enter the cell will die until it is no longer over capacity.
 At any time during the simulation the user can query the contents of the nature
 reserve. The information that is printed out is each cell's row, column and
 the number of rabbits and lynxes in the cell. The total number of rabbits and
